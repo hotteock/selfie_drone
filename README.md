@@ -23,3 +23,5 @@
 (12/31) https://github.com/kairess/face_detection_comparison
 
 OpenCV DNN face detector 코드와 훈련된 모델을 이용했다. 라즈베리파이에서 실행해본 결과 1 fps 정도의 속도를 얻을 수 있었다. 개선이 필요하다.
+
+또한 꼭 얼굴인식을 해야 할까 하는 생각이 들었다. 영상에서 일정 포인트를 기준으로 트래킹 해서 모터를 조작하고 이를 발전 시켜 드론 제어에 포함한다면 되지 않을까?
