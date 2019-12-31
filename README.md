@@ -17,3 +17,9 @@
    1. https://mangastorytelling.tistory.com/entry/%EB%B9%B5%ED%98%95%EC%9D%98-%EA%B0%9C%EB%B0%9C%EB%8F%84%EC%83%81%EA%B5%AD-%EC%96%BC%EA%B5%B4-%EC%9D%B8%EC%8B%9D-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%84%B1%EB%8A%A5-%EB%B9%84%EA%B5%90-Python-Deep-Learning
    
    python 얼굴 인식 알고리즘 비교 => OpenCV DNN face detector
+   
+6. 진행상황
+
+(12/31) https://github.com/kairess/face_detection_comparison
+
+OpenCV DNN face detector 코드와 훈련된 모델을 이용했다. 라즈베리파이에서 실행해본 결과 1 fps 정도의 속도를 얻을 수 있었다. 개선이 필요하다.
