@@ -2,7 +2,7 @@
 
 1. 프로젝트 시작 (12/31 ~)
 
-2. 프로젝트 목표 : 셀피 드론 (https://www.selfly.camera/  aee selfy)
+2. 프로젝트 목표 : 셀피 드론 (Hover Camera)
 
 3. 재료 : 라즈베리파이3+, webcam(마소 hd3000), 틸트/팬 모터, 드론
 
