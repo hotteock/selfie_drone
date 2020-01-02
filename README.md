@@ -27,3 +27,9 @@
   또한 꼭 얼굴인식을 해야 할까 하는 생각이 들었다. 영상에서 일정 포인트를 기준으로 트래킹 해서 모터를 조작하고 이를 발전 시켜 드론 제어에 포함한다면 되지 않을까?
 
   (1/1) 서보모터 2개 + 팬틸트 모듈 주문.
+  
+  (1/2) yoloface 실행 해 본 결과 DNN과 비교 하여 빠르지 않았음. 
+  
+  https://towardsdatascience.com/real-time-face-recognition-with-cpu-983d35cc3ec5
+  
+  Ultra-light face detector라고 하는 오픈소스를 찾았다. 이것을 시도 해볼 예정 (dlib 설치가 오래걸린다.)
