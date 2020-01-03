@@ -33,3 +33,7 @@
   https://towardsdatascience.com/real-time-face-recognition-with-cpu-983d35cc3ec5
   
   Ultra-light face detector라고 하는 오픈소스를 찾았다. 이것을 시도 해볼 예정 (dlib 설치가 오래걸린다.)
+  
+  (1/3) 서보모터 동작 확인, 파이 카메라 동작 확인 (but 파이 카메라는 웹캠과 비슷해 보인다. 이전의 코드에서 똑같은 fps 확인)
+  
+  어제의 ultra-light face detector는 onnc모델을 이용한 것 이었다. 라즈베리파이에서 onnc 동작이 잘 되지 않는것 같다. 
