@@ -36,4 +36,10 @@
   
   (1/3) 서보모터 동작 확인, 파이 카메라 동작 확인 (but 파이 카메라는 웹캠과 비슷해 보인다. 이전의 코드에서 똑같은 fps 확인)
   
-  어제의 ultra-light face detector는 onnc모델을 이용한 것 이었다. 라즈베리파이에서 onnc 동작이 잘 되지 않는것 같다. 
+  어제의 ultra-light face detector는 onnc모델을 이용한 것 이었다. 라즈베리파이에서 onnc 동작이 잘 되지 않는것 같다.
+  
+  (1/6) 파이 카메라 모듈 - haar cascade 얼굴인식 (10fps) (640x480)
+                        - opencv dnn detection (2.4fps) (640x480 / (200,200)
+                        
+  
+  대략 5fps 정도를 얻고 싶은데 어떤 방법을 이용해야 할지 모르겠다. opencv dnn을 같은 모델을 사용하면서 여러 설정값을 조정해 볼 생각

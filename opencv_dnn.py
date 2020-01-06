@@ -25,7 +25,7 @@ while cap.isOpened():
   # prepare input
   result_img = img.copy()
   h, w, _ = result_img.shape
-  blob = cv2.dnn.blobFromImage(result_img, 1.0, (300, 300), [104, 117, 123], False, False)
+  blob = cv2.dnn.blobFromImage(result_img, 1.0, (200, 200), [104, 117, 123], False, False)
   net.setInput(blob)
 
   # inference, find faces
