@@ -47,3 +47,8 @@
   (1/7) 프레임을 읽어들이는 VideoCapture(0)를 queue를 사용하여 가속화 할 수 있다고 하여 그 라이브러리를 사용해 보았다. 하지만 다 처리하지 못하는것 같다.
   
   queue 사이즈를 줄이던지 아니면 detection 처리 자체를 병렬롤 해야할까?
+  
+  (1/10) mobilenet v2 + ssd 를 베이스로한 face detection 의 성능이 10fps 이상이 나오는 데모 영상을 접할 수 있었다. face 데이터셋을 구해서 tf-slim으로 학습시켜보자.
+  
+  윈도우에서 학습시키기 위해 사전작업 (tensorflow 설치)
+  
