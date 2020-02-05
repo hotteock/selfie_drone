@@ -52,3 +52,6 @@
   
   윈도우에서 학습시키기 위해 사전작업 (tensorflow 설치)
   
+  (2/5) WIDER 데이터셋을 Google vision API를 활용하여 정류하여 tfrecord를 만들고 이를 구글 Ai platform에서 트레이닝을 시켰다.
+  
+  트레이닝된 결과물을 바탕으로 Outfput_inference_graph.pb 폴더에 체크포인트 파일을 만들었다.
